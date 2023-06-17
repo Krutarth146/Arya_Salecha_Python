@@ -3,7 +3,6 @@
 list1 = [10,290,89,79,67,56]
 print(len(list1))   # 6
 
-
 list1.append(9000)
 print(list1)   # [10, 290, 89, 79, 67, 56, 9000]
 
@@ -117,60 +116,3 @@ Tasks-:
     # Is student is allowed to sit in exam or not.
 
 '''
-
-
-# list1 = []
-
-# for i in range(5):
-#     list1.append(int(input()))
-
-# print(list1)
-
-
-# list1 = [int(x) for x in input().split()]
-
-# print(list1)
-
-
-l1 = [10,20,30,40]
-
-
-l1.append([90,89,88,78])
-print(l1)  # [10, 20, 30, 40, [90, 89, 88, 78]]
-
-# l1.extend([90,89,88,78])
-# print(l1)  # [10, 20, 30, 40, 90, 89, 88, 78]
-
-
-l2 = [1,0,0,1,1,0,0,1,1,1,0]
-
-
-ans = [1,1,1,1,1,1,0,0,0,0,0]
-
-for i in l2:
-    if i == 0:
-        l2.remove(0)
-        l2.append(0)
-print(l2)
-
-
-
-
-matrix = [[10,221,32], [42,56,346], [17,86,98]]
-single = []
-for i in matrix:
-    single.extend(i)
-
-single.sort()
-
-
-print(single)
-
-d2 = [[],[],[]]
-k = 0
-for h in range(3):
-    for i in range(3):
-        d2[h].append(single[k])
-        k+=1
-
-print(d2)  # [[10, 17, 32], [42, 56, 86], [98, 221, 346]]
