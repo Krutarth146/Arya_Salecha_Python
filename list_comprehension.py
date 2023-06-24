@@ -61,3 +61,34 @@ for i,j in enumerate(l3,100):
 index = [i for i,j in enumerate(l3,100) if j == 21]
 
 print(index)
+
+
+dict1 = {"Navneet", 90, 32}
+
+# print(input())
+print(type(dict1))   # <class 'set'>
+
+_ = int(input())
+
+# TYpecasting
+
+# loops ---> list, tuple
+
+# a = 1
+# b = 2
+# c = 3
+
+# a = 1
+# x = 100
+
+
+# v = "True"
+# f = 'f'
+
+# print(len[v])
+
+
+list1 = [10,20,30,40,50]
+print(list1)
+print(list1[0:1])
+print(list1[12:13])
