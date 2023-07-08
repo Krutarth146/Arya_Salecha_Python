@@ -83,3 +83,12 @@ str1 = ' '.join(list1)
 
 print(str1)  # a lion is the king of a Jungle.
 
+
+
+
+l1 = [19, 19, 15, 5, 5, 5, 1, 2]
+
+
+for i,j in enumerate(l1,1):
+    if len(l1) == 8 and i == 5 and l1.count(l1[i]) == 3:
+        print(True)
